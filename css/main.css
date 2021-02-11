@@ -1,0 +1,111 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ms-container{
+  max-width: 1300px;
+  margin: auto;
+}
+
+body{
+  font-size: 12px;
+}
+
+/* regole header */
+/* nav */
+.navbar-default .navbar-nav > li > a{
+  color: #000000;
+  font-size: 1.6rem;
+  margin: 0 -8px 0 -8px;
+}
+
+.navbar-default{
+  background-color: #ffffff;
+  border: none;
+}
+
+.navbar-brand img{
+  max-width: 130px;
+  height: auto;
+}
+
+.nav.navbar-nav:first-child{
+  padding-left: 40px;
+}
+
+ul .btn-default{
+  border-color: #0000ff;
+  color: #0000ff;
+  font-weight: bold;
+}
+
+ul .btn-default:hover{
+  background-color: #0000ff;
+  color: #ffff;
+}
+/* jumbotron */
+.ms-jumbotron{
+  background-image: url(../img/jumbo.svg);
+  min-height: 500px;
+}
+
+.ms-jumbotron img{
+width: 100%;
+}
+
+.ms-jumbotron h1{
+  font-size: 6.4rem;
+  color: #ffff;
+  width: 90%;
+  margin-top: 70px;
+}
+
+.ms-jumbotron .row div:first-child p{
+  margin-top: 30px;
+  font-size: 2.5rem;
+}
+
+/* card jumbotron */
+
+header .card{
+  background-color: #ffff;
+  margin: 70px auto;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.form-group{
+  width: 90%;
+  margin: auto;
+}
+
+.card h3{
+  text-align: center;
+  color: #0000ff;
+  font-size: 3rem;
+}
+
+.card h3:first-child{
+  padding-top: 20px;
+  color: #000000;
+}
+
+.card .btn{
+  margin-top: 10px;
+  position: relative;
+}
+
+.card .btn-default img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  left: 5px;
+}
+
+.card p{
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
