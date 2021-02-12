@@ -14,11 +14,16 @@ body{
   font-size: 12px;
 }
 
+/* centratura testi */
+.txt-center{
+  text-align: center;
+}
+
 /* regole header */
 /* nav */
 .navbar-default .navbar-nav > li > a{
   color: #000000;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin: 0 -8px 0 -8px;
 }
 
@@ -32,10 +37,6 @@ body{
   height: auto;
 }
 
-.nav.navbar-nav:first-child{
-  padding-left: 40px;
-}
-
 ul .btn-default{
   border-color: #0000ff;
   color: #0000ff;
@@ -46,6 +47,12 @@ ul .btn-default:hover{
   background-color: #0000ff;
   color: #ffff;
 }
+
+header .navbar-collapse{
+ width: 80%;
+ margin-left: 200px;
+}
+
 /* jumbotron */
 .ms-jumbotron{
   background-image: url(../img/jumbo.svg);
@@ -108,4 +115,66 @@ header .card{
 .card p{
   text-align: center;
   padding: 10px 0 20px 0;
+}
+
+/* regole loghi businesses */
+#bg-businesses{
+  background-color:#f3f5f9;
+}
+
+#bg-businesses h5{
+  font-size: 1.7rem;
+  color: #5b6987;
+  padding: 20px 0 20px 0;
+}
+
+.img-businesses{
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#bg-businesses a{
+  text-decoration: none;
+  color: #0069fe;
+  font-size: 1.8rem;
+  display: block;
+  padding-bottom: 25px;
+}
+#bg-businesses a:hover{
+  color: #0000ff ;
+}
+
+/* regole deploy */
+#deploy h3{
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 50px 0 20px 0;
+}
+
+#deploy p{
+  font-size: 2.6rem;
+  color: #5b6987;
+}
+
+#deploy ul{
+  list-style: none;
+  text-align: left;
+  margin-top: 100px;
+}
+#deploy li{
+  margin-left: 10px;
+}
+#deploy li > a{
+  display: block;
+  font-size: 2.5rem;
+  color: #5b6987;
+  padding-left: 20px;
+  padding-bottom: 7px;
+  border-left: 2px solid #5b6987;
+  text-decoration: none;
+}
+#deploy li > a:hover{
+  color: #000000;
+  border-color: #0000ff;
 }
