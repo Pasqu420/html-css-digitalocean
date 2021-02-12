@@ -118,11 +118,11 @@ header .card{
 }
 
 /* regole loghi businesses */
-#bg-businesses{
+.bg-businesses{
   background-color:#f3f5f9;
 }
 
-#bg-businesses h5{
+.bg-businesses h5{
   font-size: 1.7rem;
   color: #5b6987;
   padding: 20px 0 20px 0;
@@ -134,47 +134,61 @@ header .card{
   margin-bottom: 10px;
 }
 
-#bg-businesses a{
+.bg-businesses a{
   text-decoration: none;
   color: #0069fe;
   font-size: 1.8rem;
   display: block;
   padding-bottom: 25px;
 }
-#bg-businesses a:hover{
+.bg-businesses a:hover{
   color: #0000ff ;
 }
 
 /* regole deploy */
-#deploy h3{
+.deploy h3{
   font-size: 4rem;
   font-weight: bold;
   padding: 50px 0 20px 0;
 }
+.deploy h4{
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-#deploy p{
+.deploy p{
   font-size: 2.6rem;
   color: #5b6987;
 }
 
-#deploy ul{
+.deploy ul{
   list-style: none;
+  margin-top: 50px;
   text-align: left;
-  margin-top: 100px;
 }
-#deploy li{
-  margin-left: 10px;
+.deploy li{
+  margin-left: 5px;
 }
-#deploy li > a{
+.deploy li > a{
   display: block;
   font-size: 2.5rem;
   color: #5b6987;
-  padding-left: 20px;
-  padding-bottom: 7px;
+  padding: 10px 0 10px 20px;
+  /* padding-left: 20px;
+  padding-bottom: 15px; */
   border-left: 2px solid #5b6987;
   text-decoration: none;
 }
-#deploy li > a:hover{
+.deploy li > a:hover{
   color: #000000;
   border-color: #0000ff;
+}
+
+.style-deploy{
+  margin-top: 50px;
+  text-align: left;
+}
+.style-deploy p{
+  font-size: 2rem;
+  margin-bottom: 40px;
 }
