@@ -317,3 +317,64 @@ header .card{
   width: 25%;
   text-align: right;
 }
+
+/* regole rockerbox */
+.rockerbox{
+  background-color: #f3f5f9;
+}
+
+.rockerbox h3{
+  margin: 0 auto;
+  padding: 60px 0 100px 0;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.carousel-inner{
+  width: 50%;
+  margin: auto;
+}
+.rockerbox .item.active{
+  background-color: #ffff;
+}
+.rockerbox .item.active > img{
+  padding: 50px 0;
+}
+.carousel-control{
+  background-color: #f3f5f9;
+}
+
+.rockerbox .item.active > p{
+  text-align: center;
+}
+.item.active p:nth-child(2){
+  margin-bottom: 25px;
+}
+.item.active p:nth-child(3){
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.item.active p:nth-child(4){
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.item.active a{
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+@media all and (max-width: 990px) {
+  .rockerbox a{
+    display: none;
+  }
+}
+
+.rockerbox .change-screen{
+  margin-top: 30px;
+}
+
+/* regole get started now */
