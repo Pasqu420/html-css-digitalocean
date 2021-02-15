@@ -378,3 +378,125 @@ header .card{
 }
 
 /* regole get started now */
+.get-started-now{
+  background-color: #005dff;
+}
+
+.get-started-now h3{
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffff;
+  margin: 60px 0 20px 0;
+}
+
+.get-started-now p{
+  text-align: center;
+  margin-bottom: 60px;
+}
+.get-started-now a{
+  color: #0000ff;
+  font-style: 1.5rem;
+  font-weight: bold;
+}
+.get-started-now a:hover{
+  background-color: #0000ff;
+  color: #ffff;
+}
+
+/* regole footer */
+footer{
+  background-color: #031b4e;
+}
+footer span{
+  color: #7f8693;
+}
+footer .style-p{
+  font-size: 1.5rem;
+  color: #7f8693;
+  padding-top: 10px;
+}
+footer .row{
+  padding: 50px 0;
+}
+
+footer ul{
+  list-style: none;
+}
+
+.loghi-footer li{
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+footer .fab{
+  font-size: 3rem;
+  color: #7f8693;
+}
+footer .fab:hover{
+  color: #ffff;
+}
+
+footer .list-link li:first-child{
+  color: #ffff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+footer .list-link li{
+  margin-top: 10px;
+}
+footer .list-link a{
+  color: #7f8693;
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+footer .list-link a:hover{
+  color: #ffff;
+}
+
+/* regole icona support */
+.chat{
+  position: fixed;
+  z-index: 9;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(66, 91, 118);
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.chat .far{
+  font-size: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  color:#0000ff;
+}
+
+.chat-support{
+  display: none;
+  color: #000000;
+  font-size: 1.2rem;
+  position: fixed;
+  right: 85px;
+  bottom: 15px;
+}
+.chat:hover .chat-support {
+  display: block;
+}
+.chat-support div{
+  width: 100%;
+  background-color: #ffff;
+}
+.chat-support textarea{
+  width: 100%;
+}
+.chat-support .btn-default{
+  background-color: #8dc366;
+  color:#ffff;
+}
