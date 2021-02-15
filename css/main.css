@@ -29,7 +29,7 @@ body{
 .navbar-default .navbar-nav > li > a{
   color: #000000;
   font-size: 1.5rem;
-  margin: 0 -8px 0 -8px;
+  margin: 0 -5px 0 -5px;
 }
 
 .navbar-default{
@@ -274,6 +274,7 @@ header .card{
 /* regole service */
 .service{
   background-color:#031b4e;
+  background-image: linear-gradient(#031b4e, #005dff, #031b4e);
 }
 .service h3{
   width: 65%;
@@ -380,6 +381,7 @@ header .card{
 /* regole get started now */
 .get-started-now{
   background-color: #005dff;
+  background-image: linear-gradient(#005dff, #031b4e);
 }
 
 .get-started-now h3{
