@@ -249,7 +249,8 @@ header .card{
 }
 
 /* regole features */
-.features h1{
+.features h3{
+  font-size: 4rem;
   font-weight: 600;
 }
 .features .row{
@@ -268,4 +269,51 @@ header .card{
   font-weight: 700;
   display: inline-block;
   margin-bottom: 50px;
+}
+
+/* regole service */
+.service{
+  background-color:#031b4e;
+}
+.service h3{
+  width: 65%;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffff;
+}
+.service .style-p{
+  width: 65%;
+  margin: 30px auto;
+  font-size: 2rem;
+  color: #ffff;
+  margin-bottom: 40px;
+}
+
+.service li{
+  list-style: none;
+  text-align: left;
+  font-size: 1.7rem;
+  border-bottom: 1px solid #ffff;
+  color: #ffff;
+  margin-bottom: 15px;
+}
+.service ul > li:last-child{
+  border: none;
+}
+.service li > span{
+  display: inline-block;
+  width: 20%;
+  /* margin-right: 50px; */
+}
+.service li > p{
+  width: 50%;
+  display: inline-block;
+}
+.service li > a{
+  display: inline-block;
+  width: 25%;
+  text-align: right;
 }
